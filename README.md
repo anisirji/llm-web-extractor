@@ -1,4 +1,4 @@
-# @termix/web-extractor
+# @anisirji/web-extractor
 
 > Powerful web content extraction SDK with intelligent URL handling, content cleaning, and comprehensive metadata extraction.
 
@@ -32,7 +32,7 @@
 ## Installation
 
 ```bash
-npm install @termix/web-extractor
+npm install @anisirji/web-extractor
 ```
 
 ## Quick Start
@@ -40,7 +40,7 @@ npm install @termix/web-extractor
 ### Extract a Single Page
 
 ```typescript
-import { WebExtractor } from '@termix/web-extractor';
+import { WebExtractor } from '@anisirji/web-extractor';
 
 const extractor = new WebExtractor({
   apiKey: 'your-firecrawl-api-key'
@@ -138,7 +138,7 @@ import {
   deduplicateUrls,
   isSameDomain,
   extractDomain
-} from '@termix/web-extractor';
+} from '@anisirji/web-extractor';
 
 // Normalize URL
 const normalized = normalizeUrl('https://Example.com/path/?b=2&a=1#hash', {
@@ -178,7 +178,7 @@ import {
   countWords,
   generateExcerpt,
   detectLanguage
-} from '@termix/web-extractor';
+} from '@anisirji/web-extractor';
 
 // Clean content
 const cleaned = cleanContent('  text\n\n\n\nmore text  ');
@@ -334,12 +334,12 @@ interface ExtractionStats {
 
 MIT
 
-## Support
+## Repository
 
-- 📖 [Documentation](https://docs.termix.ai)
-- 🐛 [Report Issues](https://github.com/termix/web-extractor/issues)
-- 💬 [Discord Community](https://discord.gg/termix)
+- 📖 [GitHub](https://github.com/anisirji/llm-web-extractor)
+- 🐛 [Report Issues](https://github.com/anisirji/llm-web-extractor/issues)
+- 📦 [NPM Package](https://www.npmjs.com/package/@anisirji/web-extractor)
 
 ---
 
-Built with ❤️ by the TermiX Team
+Built with ❤️ by anisirji
