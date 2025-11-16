@@ -1,9 +1,17 @@
 {
   "name": "@anisirji/web-extractor",
   "version": "1.0.0",
-  "description": "Powerful web content extraction SDK with URL normalization and intelligent scraping",
+  "description": "Powerful web content extraction SDK with URL normalization and intelligent scraping - https://github.com/anisirji/llm-web-extractor",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anisirji/llm-web-extractor.git"
+  },
+  "homepage": "https://github.com/anisirji/llm-web-extractor#readme",
+  "bugs": {
+    "url": "https://github.com/anisirji/llm-web-extractor/issues"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
@@ -19,7 +27,7 @@
     "scraper",
     "termix"
   ],
-  "author": "TermiX Team",
+  "author": "anisirji",
   "license": "MIT",
   "dependencies": {
     "@mendable/firecrawl-js": "^1.0.0"
