@@ -1,0 +1,37 @@
+{
+  "name": "@anisirji/web-extractor",
+  "version": "1.0.0",
+  "description": "Powerful web content extraction SDK with URL normalization and intelligent scraping",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "tsx test/test.ts",
+    "test:integration": "tsx examples/basic-usage.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "web-scraping",
+    "content-extraction",
+    "url-parser",
+    "firecrawl",
+    "scraper",
+    "termix"
+  ],
+  "author": "TermiX Team",
+  "license": "MIT",
+  "dependencies": {
+    "@mendable/firecrawl-js": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "tsx": "^4.7.0"
+  },
+  "peerDependencies": {},
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
