@@ -1,6 +1,6 @@
 {
   "name": "@anisirji/web-extractor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Powerful web content extraction SDK with URL normalization and intelligent scraping - https://github.com/anisirji/llm-web-extractor",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
