@@ -17,6 +17,7 @@
     "dev": "tsc --watch",
     "test": "tsx test/test.ts",
     "test:integration": "tsx examples/basic-usage.ts",
+    "test:astratechai": "tsx test/test-astratechai.ts",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
@@ -40,6 +41,8 @@
   "peerDependencies": {},
   "files": [
     "dist",
-    "README.md"
+    "README.md",
+    "docs",
+    "TEST_RESULTS.md"
   ]
 }

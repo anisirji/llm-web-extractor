@@ -29,6 +29,12 @@
 - Promise-based
 - Comprehensive error handling
 
+## 📖 Documentation
+
+- **[Testing Guide](docs/TESTING_GUIDE.md)** - Comprehensive guide on testing the SDK
+- **[Test Results](TEST_RESULTS.md)** - Latest test results for astratechai.com
+- **[API Documentation](docs/README.md)** - Complete API reference and examples
+
 ## Installation
 
 ```bash
@@ -330,6 +336,23 @@ interface ExtractionStats {
 - Node.js >= 16
 - Firecrawl API key ([Get one here](https://firecrawl.dev))
 
+## Testing
+
+Run the comprehensive test suite:
+
+```bash
+# Unit tests
+npm test
+
+# Integration test with astratechai.com
+npm run test:astratechai
+
+# Basic usage example
+npm run test:integration
+```
+
+See [Testing Guide](docs/TESTING_GUIDE.md) for detailed instructions on creating tests for your own websites.
+
 ## License
 
 MIT
@@ -339,6 +362,8 @@ MIT
 - 📖 [GitHub](https://github.com/anisirji/llm-web-extractor)
 - 🐛 [Report Issues](https://github.com/anisirji/llm-web-extractor/issues)
 - 📦 [NPM Package](https://www.npmjs.com/package/@anisirji/web-extractor)
+- 📚 [Documentation](docs/README.md)
+- 🧪 [Test Results](TEST_RESULTS.md)
 
 ---
 
